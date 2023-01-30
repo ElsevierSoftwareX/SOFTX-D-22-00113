@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory>
+
+        <ListPreference
+            android:defaultValue="@string/updateFrequencyDelayTypeDefaultValue"
+            android:dialogTitle="@string/updateFrequencyDelayTypeDialogTitle"
+            android:entries="@array/updateFrequencyDelayTypeEntries"
+            android:entryValues="@array/updateFrequencyDelayTypeValues"
+            android:key="@string/updateFrequencyDelayTypeKey"
+            android:summary="@string/updateFrequencyDelayTypeSummary"
+            android:title="@string/updateFrequencyDelayTypeTitle" />
+
+        <SwitchPreference
+            android:defaultValue="@string/updateFrequencyCustomUpdateRateEnabledDefaultValue"
+            android:key="@string/updateFrequencyCustomUpdateRateEnabledKey"
+            android:summary="@string/updateFrequencyCustomUpdateRateEnabledSummary"
+            android:title="@string/updateFrequencyCustomUpdateRateEnabledTitle" />
+
+        <EditTextPreference
+            android:defaultValue="@string/updateFrequencyCustomUpdateRateDefaultValue"
+            android:dialogTitle="@string/updateFrequencyCustomUpdateRateDialogTitle"
+            android:inputType="number"
+            android:key="@string/updateFrequencyCustomUpdateRateKey"
+            android:summary="@string/updateFrequencyCustomUpdateRateSummary"
+            android:title="@string/updateFrequencyCustomUpdateRateTitle" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/displayPreferencesTitle">
+
+        <SwitchPreference
+            android:defaultValue="@string/displayPreferencesBlackBackgroundEnabledDefaultValue"
+            android:key="@string/displayPreferencesBlackBackgroundEnabledKey"
+            android:summary="@string/displayPreferencesBlackBackgroundEnabledSummary"
+            android:title="@string/displayPreferencesBlackBackgroundEnabledTitle" />
+
+        <EditTextPreference
+            android:dialogTitle="@string/displayPreferencesFontSizeDialogTitle"
+            android:key="@string/displayPreferencesFontSizeKey"
+            android:summary="@string/displayPreferencesFontSizeSummary"
+            android:title="@string/displayPreferencesFontSizeTitle" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/bluetoothPreferencesTitle">
+
+        <SwitchPreference
+            android:defaultValue="@string/bluetoothPreferencesBleEnabledDefaultValue"
+            android:key="@string/bluetoothPreferencesBleEnabledKey"
+            android:summary="@string/bluetoothPreferencesBleEnabledSummary"
+            android:title="@string/bluetoothPreferencesBleEnabledTitle" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/miscellaneousPreferencesTitle">
+
+        <Preference
+            android:key="@string/cameraPreferencesKey"
+            android:summary="@string/cameraPreferencesSummary"
+            android:title="@string/cameraPreferencesTitle"
+            app:fragment="es.csic.getsensordata.fragments.CameraPreferencesFragment" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

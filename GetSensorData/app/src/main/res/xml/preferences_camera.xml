@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <SwitchPreference
+        android:defaultValue="@string/cameraPreferencesCameraEnabledDefaultValue"
+        android:key="@string/cameraPreferencesCameraEnabledKey"
+        android:summary="@string/cameraPreferencesCameraEnabledSummary"
+        android:title="@string/cameraPreferencesCameraEnabledTitle" />
+
+    <es.csic.getsensordata.preferences.LensFacingListPreference
+        android:defaultValue="@string/cameraPreferencesLensFacingDefaultValue"
+        android:dialogTitle="@string/cameraPreferencesLensFacingDialogTitle"
+        android:key="@string/cameraPreferencesLensFacingKey"
+        android:summary="@string/cameraPreferencesLensFacingSummary"
+        android:title="@string/cameraPreferencesLensFacingTitle" />
+
+    <PreferenceCategory android:title="@string/cameraPreferencesSamplingPreferencesTitle">
+
+        <EditTextPreference
+            android:defaultValue="@string/cameraPreferencesSamplingPreferencesTagDefaultValue"
+            android:key="@string/cameraPreferencesSamplingPreferencesTagKey"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:title="@string/cameraPreferencesSamplingPreferencesTagTitle"
+            app:summary="@string/cameraPreferencesSamplingPreferencesTagSummary" />
+
+        <EditTextPreference
+            android:defaultValue="@string/cameraPreferencesSamplingPreferencesDistanceDefaultValue"
+            android:key="@string/cameraPreferencesSamplingPreferencesDistanceKey"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:title="@string/cameraPreferencesSamplingPreferencesDistanceTitle"
+            app:summary="@string/cameraPreferencesSamplingPreferencesDistanceSummary" />
+
+        <SwitchPreference
+            android:defaultValue="@string/cameraPreferencesSamplingPreferencesInfiniteDefaultValue"
+            android:key="@string/cameraPreferencesSamplingPreferencesInfiniteKey"
+            android:title="@string/cameraPreferencesSamplingPreferencesInfiniteTitle"
+            app:summary="@string/cameraPreferencesSamplingPreferencesInfiniteSummary" />
+
+        <EditTextPreference
+            android:defaultValue="@string/cameraPreferencesSamplingPreferencesSamplesDefaultValue"
+            android:inputType="number"
+            android:key="@string/cameraPreferencesSamplingPreferencesSamplesKey"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:title="@string/cameraPreferencesSamplingPreferencesSamplesTitle"
+            app:summary="@string/cameraPreferencesSamplingPreferencesSamplesSummary" />
+
+        <EditTextPreference
+            android:defaultValue="@string/cameraPreferencesSamplingPreferencesBurstSamplesDefaultValue"
+            android:inputType="number"
+            android:key="@string/cameraPreferencesSamplingPreferencesBurstSamplesKey"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:title="@string/cameraPreferencesSamplingPreferencesBurstSamplesTitle"
+            app:summary="@string/cameraPreferencesSamplingPreferencesBurstSamplesSummary" />
+
+        <ListPreference
+            android:defaultValue="@string/cameraPreferencesSamplingPreferencesExperimentDefaultValue"
+            android:entries="@array/cameraPreferencesSamplingPreferencesExperimentEntries"
+            android:entryValues="@array/cameraPreferencesSamplingPreferencesExperimentValues"
+            android:key="@string/cameraPreferencesSamplingPreferencesExperimentKey"
+            android:title="@string/cameraPreferencesSamplingPreferencesExperimentTitle"
+            app:summary="@string/cameraPreferencesSamplingPreferencesExperimentSummary" />
+
+        <SwitchPreference
+            android:defaultValue="@string/cameraPreferencesSamplingPreferencesFinishAlertDefaultValue"
+            android:key="@string/cameraPreferencesSamplingPreferencesFinishAlertKey"
+            android:title="@string/cameraPreferencesSamplingPreferencesFinishAlertTitle"
+            app:summary="@string/cameraPreferencesSamplingPreferencesFinishAlertSummary" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="@string/cameraPreferencesBeaconPreferencesTitle">
+
+        <EditTextPreference
+            android:defaultValue="@string/cameraPreferencesBeaconPreferencesCodeDefaultValue"
+            android:inputType="number"
+            android:key="@string/cameraPreferencesBeaconPreferencesCodeKey"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:title="@string/cameraPreferencesBeaconPreferencesCodeTitle"
+            app:summary="@string/cameraPreferencesBeaconPreferencesCodeSummary" />
+
+        <EditTextPreference
+            android:defaultValue="@string/cameraPreferencesBeaconPreferencesMessageHeaderDefaultValue"
+            android:inputType="number"
+            android:key="@string/cameraPreferencesBeaconPreferencesMessageHeaderKey"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:title="@string/cameraPreferencesBeaconPreferencesMessageHeaderTitle"
+            app:summary="@string/cameraPreferencesBeaconPreferencesMessageHeaderSummary" />
+
+        <EditTextPreference
+            android:defaultValue="@string/cameraPreferencesBeaconPreferencesMessageLengthDefaultValue"
+            android:inputType="number"
+            android:key="@string/cameraPreferencesBeaconPreferencesMessageLengthKey"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:title="@string/cameraPreferencesBeaconPreferencesMessageLengthTitle"
+            app:summary="@string/cameraPreferencesBeaconPreferencesMessageLengthSummary" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/cameraPreferencesPreviewPreferencesTitle">
+
+        <SwitchPreference
+            android:defaultValue="@string/cameraPreferencesPreviewEnabledDefaultValue"
+            android:key="@string/cameraPreferencesPreviewEnabledKey"
+            android:summary="@string/cameraPreferencesPreviewEnabledSummary"
+            android:title="@string/cameraPreferencesPreviewEnabledTitle" />
+
+        <ListPreference
+            android:defaultValue="@string/cameraPreferencesPreviewLocationDefaultValue"
+            android:dialogTitle="@string/cameraPreferencesPreviewLocationDialogTitle"
+            android:entries="@array/cameraPreferencesPreviewLocationEntries"
+            android:entryValues="@array/cameraPreferencesPreviewLocationValues"
+            android:key="@string/cameraPreferencesPreviewLocationKey"
+            android:summary="@string/cameraPreferencesPreviewLocationSummary"
+            android:title="@string/cameraPreferencesPreviewLocationTitle" />
+
+        <EditTextPreference
+            android:defaultValue="@string/cameraPreferencesPreviewTransparencyDefaultValue"
+            android:dialogTitle="@string/cameraPreferencesPreviewTransparencyDialogTitle"
+            android:key="@string/cameraPreferencesPreviewTransparencyKey"
+            android:summary="@string/cameraPreferencesPreviewTransparencySummary"
+            android:title="@string/cameraPreferencesPreviewTransparencyTitle" />
+
+        <SwitchPreference
+            android:defaultValue="@string/cameraPreferencesPreviewShowGuidesDefaultValue"
+            android:key="@string/cameraPreferencesPreviewShowGuidesKey"
+            android:summary="@string/cameraPreferencesPreviewShowGuidesSummary"
+            android:title="@string/cameraPreferencesPreviewShowGuidesTitle" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

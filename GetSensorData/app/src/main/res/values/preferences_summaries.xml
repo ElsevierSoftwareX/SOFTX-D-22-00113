@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Update Frequency Summaries -->
+    <string name="updateFrequencyDelayTypeSummary">Select typical sensor delays from sensors (now %1$s)</string>
+    <string name="updateFrequencyCustomUpdateRateEnabledSummary">Check to use the manually selected update rate</string>
+    <string name="updateFrequencyCustomUpdateRateSummary">Select desired update rate (now %1$s)</string>
+
+    <!-- Display Preferences Summaries -->
+    <string name="displayPreferencesBlackBackgroundEnabledSummary">Select a dark background color/white text color</string>
+    <string name="displayPreferencesFontSizeSummary">Select the font size in pixels (now %1$s)</string>
+
+    <!-- Bluetooth Preferences Summaries -->
+    <string name="bluetoothPreferencesBleEnabledSummary">Select for using Bluetooth as BLE; un mark if classic Bluetooth desired</string>
+
+    <!-- Camera Preferences Summaries -->
+    <string name="cameraPreferencesSummary">Preferences related with the different camera sensors available</string>
+    <string name="cameraPreferencesCameraEnabledSummary">Include camera output in results</string>
+    <string name="cameraPreferencesLensFacingSummary">Choose camera to take samples with (now %1$s)</string>
+
+    <!-- Camera Preferences > Sampling Preferences Summaries -->
+    <string name="cameraPreferencesSamplingPreferencesTagSummary">Used to create the folder that will contain the samples (now %1$s)</string>
+    <string name="cameraPreferencesSamplingPreferencesDistanceSummary">How far away is the beacon (now %1$s cm)</string>
+    <string name="cameraPreferencesSamplingPreferencesInfiniteSummary">Take samples as long as logging is on</string>
+    <string name="cameraPreferencesSamplingPreferencesSamplesSummary">How many samples should the app take (now %1$s)</string>
+    <string name="cameraPreferencesSamplingPreferencesBurstSamplesSummary">How many samples should the app take in each burst (now %1$s)</string>
+    <string name="cameraPreferencesSamplingPreferencesExperimentSummary">How should samples be taken (now %1$s)</string>
+    <string name="cameraPreferencesSamplingPreferencesFinishAlertSummary">Play a sound when all the samples are taken</string>
+
+    <!-- Camera Preferences > Beacon Preferences Summaries -->
+    <string name="cameraPreferencesBeaconPreferencesCodeSummary">Code emitted by the beacon (now %1$s)</string>
+    <string name="cameraPreferencesBeaconPreferencesMessageHeaderSummary">Header used by the beacon to emit the code (now %1$s)</string>
+    <string name="cameraPreferencesBeaconPreferencesMessageLengthSummary">Length of the message emitted by the beacon (now %1$s bits)</string>
+
+    <!-- Camera Preferences > Preview Preferences Summaries -->
+    <string name="cameraPreferencesPreviewEnabledSummary">Show camera preview in user interface</string>
+    <string name="cameraPreferencesPreviewLocationSummary">Choose where will preview be shown (now %1$s)</string>
+    <string name="cameraPreferencesPreviewTransparencySummary">Choose the transparency preview will show with (now %1$s)</string>
+    <string name="cameraPreferencesPreviewShowGuidesSummary">Show vertical, horizontal, and level lines to help with camera alignment</string>
+
+</resources>

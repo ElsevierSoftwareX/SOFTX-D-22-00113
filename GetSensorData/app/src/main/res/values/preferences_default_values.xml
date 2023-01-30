@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Update Frequency Default Values -->
+    <string name="updateFrequencyDelayTypeDefaultValue">1</string>
+    <string name="updateFrequencyCustomUpdateRateEnabledDefaultValue">false</string>
+    <string name="updateFrequencyCustomUpdateRateDefaultValue">100</string>
+
+    <!-- Display Preferences Default Values -->
+    <string name="displayPreferencesBlackBackgroundEnabledDefaultValue">false</string>
+    <string name="displayPreferencesFontSizeDefaultValue">10</string>
+
+    <!-- Bluetooth Preferences Default Values -->
+    <string name="bluetoothPreferencesBleEnabledDefaultValue">true</string>
+
+    <!-- Camera Preferences Default Values -->
+    <string name="cameraPreferencesCameraEnabledDefaultValue">false</string>
+    <string name="cameraPreferencesLensFacingDefaultValue">0</string>
+
+    <!-- Camera Preferences > Sampling Preferences Default Values -->
+    <string name="cameraPreferencesSamplingPreferencesTagDefaultValue">samples</string>
+    <string name="cameraPreferencesSamplingPreferencesDistanceDefaultValue">0</string>
+    <string name="cameraPreferencesSamplingPreferencesInfiniteDefaultValue">false</string>
+    <string name="cameraPreferencesSamplingPreferencesSamplesDefaultValue">10</string>
+    <string name="cameraPreferencesSamplingPreferencesBurstSamplesDefaultValue">10</string>
+    <string name="cameraPreferencesSamplingPreferencesExperimentDefaultValue">SingleTake</string>
+    <string name="cameraPreferencesSamplingPreferencesFinishAlertDefaultValue">false</string>
+
+    <!-- Camera Preferences > Beacon Preferences Default Values -->
+    <string name="cameraPreferencesBeaconPreferencesCodeDefaultValue">10</string>
+    <string name="cameraPreferencesBeaconPreferencesMessageHeaderDefaultValue">01110</string>
+    <string name="cameraPreferencesBeaconPreferencesMessageLengthDefaultValue">8</string>
+
+    <!-- Camera Preferences > Preview Preferences Default Values -->
+    <string name="cameraPreferencesPreviewEnabledDefaultValue">false</string>
+    <string name="cameraPreferencesPreviewLocationDefaultValue">TopLeft</string>
+    <string name="cameraPreferencesPreviewTransparencyDefaultValue">1.0</string>
+    <string name="cameraPreferencesPreviewShowGuidesDefaultValue">false</string>
+
+</resources>

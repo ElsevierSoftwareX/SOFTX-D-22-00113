@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/previewContainerConstraintLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/previewConstraintLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    <es.csic.getsensordata.data_sensors.camera.AutoFitTextureView
+        android:id="@+id/autoFitTextureView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/horizontalGuideline1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="@+id/autoFitTextureView"
+        app:layout_constraintEnd_toEndOf="@+id/autoFitTextureView"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.33" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/horizontalGuideline2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="@+id/autoFitTextureView"
+        app:layout_constraintEnd_toEndOf="@+id/autoFitTextureView"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.67" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/verticalGuideline1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="@+id/autoFitTextureView"
+        app:layout_constraintBottom_toBottomOf="@+id/autoFitTextureView"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.33" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/verticalGuideline2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="@+id/autoFitTextureView"
+        app:layout_constraintBottom_toBottomOf="@+id/autoFitTextureView"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.67" />
+
+    <View
+        android:id="@+id/horizontalGuideView1"
+        android:layout_width="0dp"
+        android:layout_height="1dp"
+        android:alpha="0.50"
+        android:background="@color/colorGuide"
+        app:layout_constraintEnd_toEndOf="@+id/autoFitTextureView"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/autoFitTextureView"
+        app:layout_constraintTop_toTopOf="@+id/horizontalGuideline1" />
+
+    <View
+        android:id="@+id/levelView"
+        android:layout_width="0dp"
+        android:layout_height="1dp"
+        android:alpha="0.50"
+        android:background="@color/colorGuide"
+        android:pivotX="50%"
+        android:pivotY="50%"
+        app:layout_constraintEnd_toEndOf="@+id/autoFitTextureView"
+        app:layout_constraintEnd_toStartOf="@+id/verticalGuideline2"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/verticalGuideline1"
+        app:layout_constraintTop_toTopOf="@+id/horizontalGuideline2" />
+
+    <View
+        android:id="@+id/horizontalGuideView2Left"
+        android:layout_width="0dp"
+        android:layout_height="1dp"
+        android:alpha="0.50"
+        android:background="@color/colorGuide"
+        app:layout_constraintEnd_toEndOf="@+id/autoFitTextureView"
+        app:layout_constraintEnd_toStartOf="@+id/verticalGuideline1"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/autoFitTextureView"
+        app:layout_constraintTop_toTopOf="@+id/horizontalGuideline2" />
+
+    <View
+        android:id="@+id/horizontalGuideView2Right"
+        android:layout_width="0dp"
+        android:layout_height="1dp"
+        android:alpha="0.50"
+        android:background="@color/colorGuide"
+        app:layout_constraintEnd_toEndOf="@+id/autoFitTextureView"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/verticalGuideline2"
+        app:layout_constraintTop_toTopOf="@+id/horizontalGuideline2" />
+
+    <View
+        android:id="@+id/verticalGuideView1"
+        android:layout_width="1dp"
+        android:layout_height="0dp"
+        android:alpha="0.50"
+        android:background="@color/colorGuide"
+        app:layout_constraintBottom_toBottomOf="@+id/autoFitTextureView"
+        app:layout_constraintStart_toStartOf="@+id/verticalGuideline1"
+        app:layout_constraintTop_toTopOf="@+id/autoFitTextureView"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <View
+        android:id="@+id/verticalGuideView2"
+        android:layout_width="1dp"
+        android:layout_height="0dp"
+        android:alpha="0.50"
+        android:background="@color/colorGuide"
+        app:layout_constraintBottom_toBottomOf="@+id/autoFitTextureView"
+        app:layout_constraintStart_toStartOf="@+id/verticalGuideline2"
+        app:layout_constraintTop_toTopOf="@+id/autoFitTextureView"
+        app:layout_constraintVertical_bias="0.0" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

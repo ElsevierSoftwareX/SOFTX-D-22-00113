@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Update Frequency Keys -->
+    <string name="updateFrequencyDelayTypeKey">updateFrequencyDelayType</string>
+    <string name="updateFrequencyCustomUpdateRateEnabledKey">updateFrequencyCustomUpdateRateEnabled</string>
+    <string name="updateFrequencyCustomUpdateRateKey">updateFrequencyCustomUpdateRate</string>
+
+    <!-- Display Preferences Keys -->
+    <string name="displayPreferencesBlackBackgroundEnabledKey">displayPreferencesBlackBackgroundEnabled</string>
+    <string name="displayPreferencesFontSizeKey">displayPreferencesFontSize</string>
+
+    <!-- Bluetooth Preferences Keys -->
+    <string name="bluetoothPreferencesBleEnabledKey">bluetoothPreferencesBleEnabled</string>
+
+    <!-- Camera Preferences Keys -->
+    <string name="cameraPreferencesKey">cameraPreferences</string>
+    <string name="cameraPreferencesCameraEnabledKey">cameraPreferencesCameraEnabled</string>
+    <string name="cameraPreferencesLensFacingKey">cameraPreferencesLensFacing</string>
+
+    <!-- Camera Preferences > Sampling Preferences Keys -->
+    <string name="cameraPreferencesSamplingPreferencesTagKey">cameraPreferencesSamplingPreferencesTag</string>
+    <string name="cameraPreferencesSamplingPreferencesDistanceKey">cameraPreferencesSamplingPreferencesDistance</string>
+    <string name="cameraPreferencesSamplingPreferencesInfiniteKey">cameraPreferencesSamplingPreferencesInfinite</string>
+    <string name="cameraPreferencesSamplingPreferencesSamplesKey">cameraPreferencesSamplingPreferencesSamples</string>
+    <string name="cameraPreferencesSamplingPreferencesBurstSamplesKey">cameraPreferencesSamplingPreferencesBurstSamples</string>
+    <string name="cameraPreferencesSamplingPreferencesExperimentKey">cameraPreferencesSamplingPreferencesExperiment</string>
+    <string name="cameraPreferencesSamplingPreferencesFinishAlertKey">cameraPreferencesSamplingPreferencesFinishAlert</string>
+
+    <!-- Camera Preferences > Beacon Preferences Keys -->
+    <string name="cameraPreferencesBeaconPreferencesCodeKey">cameraPreferencesBeaconPreferencesCode</string>
+    <string name="cameraPreferencesBeaconPreferencesMessageHeaderKey">cameraPreferencesBeaconPreferencesMessageHeader</string>
+    <string name="cameraPreferencesBeaconPreferencesMessageLengthKey">cameraPreferencesBeaconPreferencesMessageLength</string>
+
+    <!-- Camera Preferences > Preview Preferences Keys -->
+    <string name="cameraPreferencesPreviewEnabledKey">cameraPreferencesPreviewEnabled</string>
+    <string name="cameraPreferencesPreviewLocationKey">cameraPreferencesPreviewLocation</string>
+    <string name="cameraPreferencesPreviewTransparencyKey">cameraPreferencesPreviewTransparency</string>
+    <string name="cameraPreferencesPreviewShowGuidesKey">cameraPreferencesPreviewShowGuides</string>
+
+</resources>

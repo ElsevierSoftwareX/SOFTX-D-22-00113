@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/black" />
+
+    <TextView
+        android:id="@+id/dataSensorDescriptionTextView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorSensorAvailable"
+        android:text="@string/dataSensorDescriptionTextViewDefaultValue" />
+
+    <TextView
+        android:id="@+id/dataSensorFeaturesTextView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorFeaturesBackground"
+        android:text="@string/dataSensorFeaturesTextViewDefaultValue" />
+
+    <TextView
+        android:id="@+id/dataSensorStatusTextView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/dataSensorStatusTextViewDefaultValue" />
+
+    <TextView
+        android:id="@+id/dataSensorExtendedStatusTextView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/dataSensorExtendedStatusTextViewDefaultValue"
+        android:visibility="gone" />
+
+</LinearLayout>

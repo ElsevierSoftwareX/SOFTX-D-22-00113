@@ -1,0 +1,154 @@
+<resources>
+
+    <string name="app_name">GetSensorData</string>
+    <string name="texto_cabecera">SENSOR TYPE</string>
+    <string name="texto_vacio">--</string>
+    <string name="menu_settings">Settings</string>
+    <string name="menu_exit">Exit</string>
+    <string name="menu_about">About</string>
+    <string name="title_activity_main">GetSensorData</string>
+    <string name="nombre_fichero">filename.txt</string>
+    <string name="texto_internal">Internal Sensors:</string>
+    <string name="texto_external">External Sensors:</string>
+    <string name="saveLogToggleButtonTextOff">Start Saving a Log File</string>
+    <string name="saveLogToggleButtonTextOn">Stop Saving Log File</string>
+    <string name="showSensorFeaturesToggleButtonTextOff">Show Sensor Features</string>
+    <string name="showRealTimeDataToggleButtonTextOff">Show Real-time Data</string>
+    <string name="showSensorFeaturesToggleButtonTextOn">Hide Sensor Features</string>
+    <string name="showRealTimeDataToggleButtonTextOn">Hide Real-time Data</string>
+    <string name="MarkPosition">Mark your Position</string>
+    <string name="phoneType">Phone Type</string>
+
+
+    <string name="request_permissions_text">
+        This app requires a series of permissions for its proper operation.\n\nPlease touch the button below and allow the app to access each of the resources requested.
+    </string>
+    <string name="request_permissions_button">Request Permissions</string>
+
+    <string name="no_features">&#160;No Features</string>
+    <string name="sensor_type_unknown">Sensor Type Unknown</string>
+    <string name="manufacturer">Manufacturer</string>
+    <string name="version">Version</string>
+    <string name="resolution">Resolution</string>
+    <string name="maximum_range">MaxRange</string>
+    <string name="power_consumption">Power consumption</string>
+    <string name="minimum_delay">MinDelay (0 means is not a streaming sensor)</string>
+
+    <string name="accelerometer_sensor_not_detected">No Accelerometer detected</string>
+    <string name="gyroscope_sensor_not_detected">No Gyroscope detected</string>
+    <string name="magnetic_field_sensor_not_detected">No Magnetometer detected</string>
+    <string name="pressure_sensor_not_detected">No Barometer detected</string>
+    <string name="light_sensor_not_detected">No Light Sensor detected</string>
+    <string name="proximity_sensor_not_detected">No Proximity Sensor detected</string>
+    <string name="relative_humidity_sensor_not_detected">No Humidity Sensor detected</string>
+    <string name="ambient_temperature_sensor_not_detected">No Temperature Sensor detected</string>
+    <string name="rotation_vector_sensor_not_detected">No Attitude&amp;Heading estimation</string>
+    <string name="camera_not_enabled">Camera not enabled</string>
+
+    <!-- GNSS -->
+    <string name="gnssDescription">Location Service (GPS/Network)</string>
+    <string name="gnssNotDetected">No LOCATION system detected</string>
+
+    <!-- Wi-Fi -->
+    <string name="wifiOff">Switched OFF</string>
+    <string name="wifiOn">Switched ON</string>
+    <string name="wifiNotAvailable">Not available</string>
+    <string name="wifiNoConnection">No connection detected</string>
+    <string name="wifiMACAddress">WiFi MAC address: %1$s</string>
+
+    <!-- BLE -->
+    <string name="bleAvailable">BLE mode is available and active</string>
+    <string name="bleNotAvailable">No BLE active or available</string>
+
+    <!-- Bluetooth -->
+    <string name="bluetoothAdapterNotAvailable">No Bluetooth adapter available</string>
+    <string name="bluetoothOn">Bluetooth Switched ON</string>
+
+    <!-- Microphone -->
+    <string name="microphoneAvailable">Microphone Available</string>
+    <string name="microphoneNotAvailable">No Microphone available</string>
+
+    <!-- RFID -->
+    <string name="rfidNotDetected">No RFCode M220 Reader detected</string>
+    <string name="rfidNoFeatures">&#160;No Features</string>
+
+    <!-- IMUX -->
+    <string name="imuxNotDetected">No MTi Inertial Sensor detected</string>
+    <string name="imuxNoFeatures">&#160;No Features</string>
+
+    <!-- IMUL -->
+    <string name="imulNotDetected">No LPMS-B Inertial Sensor detected</string>
+    <string name="imulNoFeatures">&#160;No Features</string>
+
+    <!-- IMUI -->
+    <string name="imuiNotDetected">No MIMU22BT Inertial Sensor detected</string>
+    <string name="imuiNoFeatures">&#160;No Features</string>
+    <string name="imuiFeatures">Inertial Elements Osmium MIMU22BT with 4 IMUs fused. Features: 3 Acc, 3 Gyr, 1 Baro, Bluetooth 3.0 connectivity</string>
+
+    <!-- Phone Summary -->
+    <string name="phoneSummary">"Phone: %1$s  %2$s  API%3$d  Android_%4$s</string>
+
+    <!-- Log -->
+    <string name="savingSensorData">Saving sensor data</string>
+    <string name="endOfSaving">End of Saving</string>
+
+    <!-- Mark Position -->
+    <string name="markPositionFirst">Mark First Position</string>
+    <string name="markPositionNext">Mark Next Position #%1$d</string>
+    <string name="markPositionStartSaving">"Not marked. Start saving first"</string>
+
+    <!-- Stop Saving -->
+    <string name="stopSaving">Stop Saving.\n %1$s s</string>
+
+    <!-- RFID Handler -->
+    <string name="rfidDetected"> RFID: RFCode M220 Reader detected</string>
+    <string name="rfidFeatures">\tManufacturer: RFCode\n\tModel: M220 Portable Reader\n\tRF Frequency: 433 MHz\n\tNumber of Antennas: 2\n\tConnectivity: Bluetooth &amp; USB</string>
+    <string name="rfidConnectedReaders">Number of Connected RFID readers: %1$d</string>
+
+    <!-- LPMS Handler -->
+    <string name="lpmsDetected"> IMUL: LPMS-B Inertial Sensor detected</string>
+    <string name="lpmsFeatures">\tManufacturer: Life Performance Research\n\tModel: LPMS-B IMU\n\tConfigured to transmit: Acc, Gyr, Mag, Quat, Euler, Pres, Temp\n\tRanges: Acc (4G), Gyr (2000º/s), Mag (250uT)\n\tSamplig Frequency: 100Hz\n\tConnectivity: Bluetooth</string>
+    <string name="lpmsNotDetected"> IMUL: No LPMS-B Inertial Sensor detected</string>
+    <string name="lpmsNoFeatures">&#160;No Features</string>
+
+    <!-- MIMU22BT Handler -->
+    <string name="mimu22btDetected"> IMUI: MIMU22BT Inertial Sensor detected</string>
+    <string name="mimu22btFeatures">\tManufacturer: Inertial Elements\n\tModel: MIMU22BT IMU\n\tConfigured to transmit: delta_X,Y,Z,theta,step_count\n\tRanges: Acc (+/-4G), Gyr (1000 degrees/s)\n\tSamplig Frequency: 125Hz\n\tConnectivity: Bluetooth 3.0</string>
+    <string name="mimu22btNotDetected"> IMUI: No MIMU22BT Inertial Sensor detected</string>
+    <string name="mimu22btNoFeatures">&#160;No Features</string>
+
+    <!-- Xsens Handler -->
+    <string name="xsensDetected"> IMUX: XSens MTi Inertial Sensor detected</string>
+    <string name="xsensFeatures">\tManufacturer: Xsens\n\tModel: MTi IMU\n\tConfigured to transmit: Acc, Gyr, Mag, Euler, Temp\n\tRanges: Acc (5G), Gyr (300º/s), Mag (?uT)\n\tSamplig Frequency: 100Hz\n\tConnectivity: USB</string>
+    <string name="xsensNotDetected"> IMUX: No XSens MTi Inertial Sensor detected</string>
+    <string name="xsensNoFeatures">&#160;No Features</string>
+
+    <!-- Location Listener-->
+    <string name="locationListenerGnssProviderDisabled">GNSS Provider Disabled</string>
+    <string name="locationListenerGnssProviderEnabled">GNSS Provider Enabled</string>
+    <string name="locationListenerGnssProviderStatus">GNSS Provider Status: %1$i</string>
+    <string name="locationListenerGnssNoLocationProviders">No Location Providers</string>
+
+    <!-- Camera -->
+    <string name="cameraFeaturesSamplesOutputPath">Samples Output Path</string>
+    <string name="cameraFeaturesExperiment">Experiment</string>
+    <string name="cameraFeaturesSamples">Samples</string>
+    <string name="beacon">Beacon</string>
+    <string name="beaconCode">Code</string>
+    <string name="beaconMessageHeader">Message Header</string>
+    <string name="beaconMessageLength">Message Length</string>
+
+    <!-- Recycler View -->
+    <string name="dataSensorsHeaderTextViewDefaultValue">Data Sensors</string>
+
+    <string name="dataSensorDescriptionTextViewDefaultValue">Data Sensor Description</string>
+    <string name="dataSensorFeaturesTextViewDefaultValue">Data Sensor Features</string>
+    <string name="dataSensorStatusTextViewDefaultValue">Data Sensor Status</string>
+    <string name="dataSensorExtendedStatusTextViewDefaultValue">Data Sensor Extended Status</string>
+
+    <string name="dataSensorSmartphoneDetailsTextViewDefaultValue">Smartphone Details</string>
+
+    <!-- Other -->
+    <string name="emptyStatus">--</string>
+
+</resources>

@@ -1,0 +1,45 @@
+<resources>
+
+    <string-array name="updateFrequencyDelayTypeEntries">
+        <item>Fastest</item>
+        <item>Game</item>
+        <item>Normal</item>
+        <item>UserInt</item>
+    </string-array>
+
+    <string-array name="updateFrequencyDelayTypeValues">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+
+    <string-array name="cameraPreferencesSamplingPreferencesExperimentEntries">
+        <item>Single Take</item>
+        <item>Double Take</item>
+        <item>Burst</item>
+        <item>Double Take &amp; Burst</item>
+    </string-array>
+
+    <string-array name="cameraPreferencesSamplingPreferencesExperimentValues">
+        <item>SingleTake</item>
+        <item>DoubleTake</item>
+        <item>Burst</item>
+        <item>DoubleTakeBurst</item>
+    </string-array>
+
+    <string-array name="cameraPreferencesPreviewLocationEntries">
+        <item>Top Left</item>
+        <item>Top Right</item>
+        <item>Bottom Left</item>
+        <item>Bottom Right</item>
+    </string-array>
+
+    <string-array name="cameraPreferencesPreviewLocationValues">
+        <item>TopLeft</item>
+        <item>TopRight</item>
+        <item>BottomLeft</item>
+        <item>BottomRight</item>
+    </string-array>
+
+</resources>

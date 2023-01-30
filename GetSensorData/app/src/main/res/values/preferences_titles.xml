@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Settings Menu Titles -->
+    <string name="settingsTitle">Preferences</string>
+
+    <string name="preferencesActivityTitle">Preferences</string>
+
+    <string name="preferencesTitle">Preferences</string>
+
+    <!-- Preferences Categories Titles -->
+    <string name="updateFrequencyTitle">Update Frequency</string>
+    <string name="displayPreferencesTitle">Display Preferences</string>
+    <string name="bluetoothPreferencesTitle">Bluetooth Preferences</string>
+
+    <!-- Update Frequency Titles -->
+    <string name="updateFrequencyDelayTypeTitle">Typical Update Rates</string>
+    <string name="updateFrequencyDelayTypeDialogTitle">Select the Delay Type</string>
+    <string name="updateFrequencyCustomUpdateRateEnabledTitle">Use Custom Update Rate</string>
+    <string name="updateFrequencyCustomUpdateRateTitle">Change Custom Update Rate</string>
+    <string name="updateFrequencyCustomUpdateRateDialogTitle">Enter your desired update rate in Hz</string>
+
+    <!-- Display Preferences Titles -->
+    <string name="displayPreferencesBlackBackgroundEnabledTitle">Black Background Color</string>
+    <string name="displayPreferencesFontSizeTitle">Font Size</string>
+    <string name="displayPreferencesFontSizeDialogTitle">Font Size</string>
+
+    <!-- Bluetooth Preferences Titles -->
+    <string name="bluetoothPreferencesBleEnabledTitle">BLE 4.0 for iBeacons</string>
+
+    <!-- Miscellaneous Preferences Titles -->
+    <string name="miscellaneousPreferencesTitle">Miscellaneous</string>
+
+    <!-- Camera Preferences Titles -->
+    <string name="cameraPreferencesTitle">Camera Preferences</string>
+    <string name="cameraPreferencesCameraEnabledTitle">Enabled</string>
+    <string name="cameraPreferencesLensFacingTitle">Lens</string>
+    <string name="cameraPreferencesLensFacingDialogTitle">Lens</string>
+
+    <!-- Camera Preferences > Sampling Preferences Titles -->
+    <string name="cameraPreferencesSamplingPreferencesTitle">Sampling</string>
+    <string name="cameraPreferencesSamplingPreferencesTagTitle">Tag</string>
+    <string name="cameraPreferencesSamplingPreferencesDistanceTitle">Distance</string>
+    <string name="cameraPreferencesSamplingPreferencesInfiniteTitle">Infinite</string>
+    <string name="cameraPreferencesSamplingPreferencesSamplesTitle">Samples</string>
+    <string name="cameraPreferencesSamplingPreferencesBurstSamplesTitle">Burst Samples</string>
+    <string name="cameraPreferencesSamplingPreferencesExperimentTitle">Experiment</string>
+    <string name="cameraPreferencesSamplingPreferencesFinishAlertTitle">Finish Alert</string>
+
+    <!-- Camera Preferences > Beacon Preferences Titles -->
+    <string name="cameraPreferencesBeaconPreferencesTitle">Beacon</string>
+    <string name="cameraPreferencesBeaconPreferencesCodeTitle">Code</string>
+    <string name="cameraPreferencesBeaconPreferencesMessageHeaderTitle">Message Header</string>
+    <string name="cameraPreferencesBeaconPreferencesMessageLengthTitle">Message Length</string>
+
+    <!-- Camera Preferences > Preview Preferences Titles -->
+    <string name="cameraPreferencesPreviewPreferencesTitle">Preview</string>
+    <string name="cameraPreferencesPreviewEnabledTitle">Show Preview</string>
+    <string name="cameraPreferencesPreviewLocationTitle">Preview Location</string>
+    <string name="cameraPreferencesPreviewLocationDialogTitle">Preview Location</string>
+    <string name="cameraPreferencesPreviewTransparencyTitle">Preview Transparency</string>
+    <string name="cameraPreferencesPreviewTransparencyDialogTitle">Preview Transparency</string>
+    <string name="cameraPreferencesPreviewShowGuidesTitle">Guides</string>
+
+</resources>
